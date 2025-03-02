@@ -2,7 +2,7 @@ const { keith, commands } = require('../keizzah/command');
 
 keith({
     pattern: "repo",
-    react: "⚔️",
+    react: "♻️",
     alias: ["script", "sc"],
     desc: "to get bot repository.",
     category: "universal",
@@ -11,7 +11,7 @@ keith({
 }, async (zk, mek, m, { from, pushname }) => {
     try {
         // Fetch repository data from GitHub
-        const response = await fetch("https://api.github.com/repos/Keithkeizzah/ALPHA-MD1");
+        const response = await fetch("https://api.github.com/repos/Finjohns/Negro-MD");
 
         // Check if the response is ok
         if (!response.ok) {
@@ -36,8 +36,8 @@ keith({
 
         // Construct message caption
         const messageCaption = `
-*Hello 👋 ${pushname}, this is 𝐀𝐋𝐏𝐇𝐀-𝐌𝐃* 
-The best bot in the universe, developed by Kᴇɪᴛʜ Kᴇɪᴢᴢᴀʜ. Fork and give a star 🌟 to my repo.
+*Hello 👋 ${pushname}, this is 𝐍𝐞𝐠𝐫𝐨 -𝐌𝐃* 
+The best bot in the universe, developed by JinwiilOnginjo. Fork and give a star 🌟 to my repo.
 
 ╭───────────────────────
 │✞ *Stars:* ${repoInfo.stars}
@@ -56,9 +56,9 @@ The best bot in the universe, developed by Kᴇɪᴛʜ Kᴇɪᴢᴢᴀʜ. Fork a
             contextInfo: {
                 mentionedJid: [m.sender], // Mention the sender
                 externalAdReply: {
-                    title: "🌟 𝐊𝐄𝐈𝐓𝐇-𝐌𝐃 ✨",
-                    body: "Regards, Kᴇɪᴛʜ Kᴇɪᴢᴢᴀʜ",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                    title: "Negro🌟 -𝐌𝐃 ✨",
+                    body: "Regards, 𝐉𝐢𝐧𝐰𝐢𝐢𝐥𝐎𝐧𝐠𝐢𝐧𝐣𝐨",
+                    sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
