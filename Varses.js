@@ -16,7 +16,7 @@ async function handleCall(zk, callData) {
     const currentTime = Date.now();
     if (currentTime - lastTextTime >= messageDelay) {
       await zk.sendMessage(callerId, {
-        text: '```❗📵I AM KEITH MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
+        text: '``` HEEEEY I🚫NEGRO❌  MD |  REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
       });
       lastTextTime = currentTime;
     } else {
