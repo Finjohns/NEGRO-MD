@@ -24,7 +24,7 @@ const { tmpdir } = require('os');
 const Crypto = require('crypto');
 const path = require('path');
 const prefix = config.PREFIX;
-const ownerNumber = ['254748387615']; // Owner numbers
+const ownerNumber = ['254769365617']; // Owner numbers
 
 // Import commands from keizzah/command
 const { keith, commands } = require('./keizzah/command');
