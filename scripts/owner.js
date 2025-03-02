@@ -4,7 +4,7 @@ const config = require('../config');
 keith({
     pattern: "owner",
     react: "🦁", 
-    alias: ["keith", "master"],
+    alias: ["Jinwiil", "master"],
     desc: "Get owner number",
     category: "master",
     filename: __filename
