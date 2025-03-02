@@ -20,7 +20,7 @@ function runtime(seconds) {
 // Command handler for "uptime"
 keith({
   pattern: "uptime",
-  react: "⚔️",
+  react: "🌞",
   alias: ["runtime", "commands"],
   desc: "Get bot command list.",
   category: "system",
@@ -33,13 +33,13 @@ keith({
 
     // Send uptime information to the user
     await zk.sendMessage(from, {
-      text: "🗡️ Alpha Md ⚔️",
+      text: "🏴‍☠️Negro Md😜",
       contextInfo: {
         externalAdReply: {
-          title: "🗡️ ALPHA-MD ⚔️ UPTIME",
+          title: "🏴‍☠️ NEGRO MD😜 UPTIME",
           body: `Bot Uptime: ${formattedUptime}`, // Add formatted uptime
           thumbnailUrl: config.ALIVE_IMG, // Bot profile image URL
-          sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47", // Your channel URL
+          sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N", // Your channel URL
           mediaType: 1,
           showAdAttribution: true, // Show attribution if verified
         },
