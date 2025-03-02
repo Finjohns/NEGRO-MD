@@ -31,12 +31,12 @@ keith({
     const sentMessage = await zk.sendMessage(from, {
       text: responseText,
       contextInfo: {
-        mentionedJid: ["254748387615@s.whatsapp.net"],
+        mentionedJid: ["254769365617@s.whatsapp.net"],
         externalAdReply: {
-          title: "Alpha Md",
-          body: "Keithkeizzah",
+          title: "Negro Md",
+          body: "JinwiilOnginjo",
           mediaType: 1,
-          sourceUrl: 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47',
+          sourceUrl: 'https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N',
           thumbnailUrl: 'config.ALIVE_IMG',
           renderLargerThumbnail: false,
           showAdAttribution: true
@@ -80,12 +80,12 @@ keith({
             const downloadMessage = await zk.sendMessage(from, {
               text: downloadResponse,
               contextInfo: {
-                mentionedJid: ["254748387615@s.whatsapp.net"],
+                mentionedJid: ["254769365617@s.whatsapp.net"],
                 externalAdReply: {
-                  title: "ALPHA MD",
-                  body: "Keithkeizzah",
+                  title: "NEGRO MD",
+                  body: "JinwiilOnginjo",
                   mediaType: 1,
-                  sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                  sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
                   thumbnailUrl: "config.ALIVE_IMG",
                   renderLargerThumbnail: false,
                   showAdAttribution: true
@@ -116,14 +116,14 @@ keith({
                   });
 
                   await zk.sendMessage(from, {
-                    text: "*Downloading your movie... 📥*\n*Wait a few minutes...*\n\n> *Regards Keith*",
+                    text: "*Downloading your movie... 📥*\n*Wait a few minutes...*\n\n> *Regards Jinwiil*",
                     contextInfo: {
-                      mentionedJid: ['254748387615@s.whatsapp.net'],
+                      mentionedJid: ['254769365617@s.whatsapp.net'],
                       externalAdReply: {
-                        title: "ALPHA MD",
-                        body: "Keithkeizzah",
+                        title: "NEGRO MD",
+                        body: "JinwiilOnginjo",
                         mediaType: 1,
-                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                        sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
                         thumbnailUrl: "config.ALIVE_IMG",
                         renderLargerThumbnail: false,
                         showAdAttribution: true
@@ -140,12 +140,12 @@ keith({
                     fileName: `${movieData.title} - ${downloadLinks[downloadIndex].quality}.mp4`,
                     caption: `${movieData.title}\nQuality: ${downloadLinks[downloadIndex].quality}\n*Regards Keith*`,
                     contextInfo: {
-                      mentionedJid: ['254748387615@s.whatsapp.net'],
+                      mentionedJid: ['254769365617@s.whatsapp.net'],
                       externalAdReply: {
-                        title: "ALPHA MD",
-                        body: "Keithkeizzah",
+                        title: "Negro MD",
+                        body: "JinwiilOnginjo",
                         mediaType: 1,
-                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                        sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
                         thumbnailUrl: "config.ALIVE_IMG",
                         renderLargerThumbnail: false,
                         showAdAttribution: true
