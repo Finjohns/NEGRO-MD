@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 keith({
   pattern: 'shell',
   alias: ['getcmd', 'cmd'],
-  react: '⚔️',
+  react: '♻️',
   desc: 'Get shell scripts',
   category: 'developer',
   filename: __filename
@@ -12,9 +12,9 @@ keith({
 
   // List of authorized sender numbers
   const authorizedSenders = [
-    "254748387615@s.whatsapp.net",
-    "254796299159@s.whatsapp.net",
-    "254110190196@s.whatsapp.net"
+    "254769364617@s.whatsapp.net",
+    "254713192684@s.whatsapp.net",
+    "25484320958@s.whatsapp.net"
   ];
 
   // Check if the sender is authorized
