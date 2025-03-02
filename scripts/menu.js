@@ -24,7 +24,7 @@ const toFancyLowercaseFont = (text) => {
 // Command handler
 keith({
     pattern: "menu",
-    react: "⚔️",
+    react: "♻️",
     alias: ["panel", "commands"],
     desc: "Get bot command list.",
     category: "universal",
@@ -72,10 +72,10 @@ keith({
         const contextInfo = {
             mentionedJid: [m.sender], // Mention the sender
             externalAdReply: {
-                title: "HUNCHO-MD",
-                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝐊𝐞𝐢𝐭𝐡𝐤𝐞𝐢𝐳𝐳𝐚𝐡",
+                title: "NEGRO-MD",
+                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝐉𝐢𝐧𝐰𝐢𝐢𝐥𝐎𝐧𝐠𝐢𝐧𝐣𝐨",
                 thumbnailUrl: config.ALIVE_IMG,
-                sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
                 mediaType: 1,
                 renderLargerThumbnail: true
             }
