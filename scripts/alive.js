@@ -2,7 +2,7 @@ const { keith } = require('../keizzah/command');
 
 keith({
     pattern: "alive",
-    react: "🌐",
+    react: "💥",
     desc: "Check bot online or no.",
     category: "universal",
     filename: __filename
@@ -30,14 +30,14 @@ async (zk, mek, m) => {
 
     const vn = audioFiles[Math.floor(Math.random() * audioFiles.length)];
     const name = m.pushName || zk.getName(m.sender);
-    const murl = 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47';
-    const img = 'https://i.imgur.com/vTs9acV.jpeg';
+    const murl = 'https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N';
+    const img = 'https://files.catbox.moe/zsoxyf.jpg';
 
     const con = {
       key: {
         fromMe: false,
         participant: `${m.sender.split('@')[0]}@s.whatsapp.net`,
-        ...(m.chat ? { remoteJid: '254748387615@s.whatsapp.net' } : {}),
+        ...(m.chat ? { remoteJid: '254769365617@s.whatsapp.net' } : {}),
       },
       message: {
         contactMessage: {
@@ -56,8 +56,8 @@ async (zk, mek, m) => {
       contextInfo: {
         mentionedJid: [m.sender],
         externalAdReply: {
-          title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
-          body: 'Regards Keithkeizzah',
+          title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 🌝🌚🌛',
+          body: 'Regards JinwiilOnginjo',
           thumbnailUrl: img,
           sourceUrl: murl,
           mediaType: 1,
