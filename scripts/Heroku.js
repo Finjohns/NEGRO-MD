@@ -5,7 +5,7 @@ const s = require("../config");
 // Command to get all Heroku variables
 keith({
   pattern: 'allvar',
-  react: '⚔️',
+  react: '❓',
   desc: 'Get shell scripts',
   category: 'system',
   filename: __filename
@@ -50,7 +50,7 @@ keith({
 // Command to set or change Heroku variables
 keith({
   pattern: 'setvar',
-  react: '⚔️',
+  react: '❓',
   desc: 'Set or change your Heroku variables',
   category: 'system',
   filename: __filename
@@ -58,7 +58,7 @@ keith({
 
   // Check if the command is issued by the owner
   if (!isOwner) {
-    return reply("*This command is restricted to the bot owner or Alpha owner 💀*");
+    return reply("*This command is restricted to the bot owner or Negro owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
