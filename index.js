@@ -60,7 +60,7 @@ const mode = config.MODE; // Fetch the mode value from config
 //=============================================
 
 async function connectToWA() {
-  console.log("CONNECTING ALPHA MD..");
+  console.log("CONNECTING NEGRO MD..");
 
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/');
   const { version } = await fetchLatestBaileysVersion();
@@ -80,7 +80,7 @@ async function connectToWA() {
     if (connection === 'close' && lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
       connectToWA();
     } else if (connection === 'open') {
-      console.log('HUNCHO IS CONNECTING✅ ');
+      console.log('NEGRO IS CONNECTING✅ ');
 
       // Load scripts dynamically
       fs.readdirSync("./scripts/").forEach((script) => {
@@ -90,7 +90,7 @@ async function connectToWA() {
       });
 
       console.log('PLUGINS FILES INSTALLED SUCCESSFULLY ✅');
-      console.log('ALPHA MD IS CONNECTED ENJOY ✅');
+      console.log('NEGRO MD IS CONNECTED ENJOY ✅');
 
       const currentHour = DateTime.now().setZone('Africa/Nairobi').hour;
 
@@ -106,16 +106,16 @@ async function connectToWA() {
 
       let up = `Hey, ${getGreeting()}
 ╭════⊷
-║ *『𝐀𝐋𝐏𝐇𝐀-𝐌𝐃 𝐢𝐬 𝐎𝐧𝐥𝐢𝐧𝐞』*
-║    Creator: *keithkeizzah*
+║ *『𝗡𝗘𝗚𝗥𝗢-𝐌𝐃 𝐢𝐬 𝐎𝐧𝐥𝐢𝐧𝐞』*
+║    Creator: *JinwiilOnginjo*
 ║    Prefix : [ ${prefix} ]
 ║    Mode : ${mode}
 ╰═════════════════⊷
 ╭───◇
 ┃
 ┃ *Thank you for choosing*                      
-┃  *ALPHA-MD*
-> Regards keithkeizzah 
+┃  *NEGRO-MD*
+> Regards JinwiilOnginjo 
 ╰═════════════════⊷`;
 
       zk.sendMessage(zk.user.id, { text: up });
@@ -141,7 +141,7 @@ async function connectToWA() {
       if (currentTime - lastTextTime >= messageDelay) {
         // Send the rejection message if the delay has passed
         await zk.sendMessage(callerId, {
-          text: '```❗📵I AM ALPHA MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
+          text: '```❌❌I AM NEGRO MD | I REJECT THIS CALL BECAUSE MY BOSS IS BUSY. KINDLY SEND TEXT INSTEAD```.',
         });
 
         // Update the last text time
