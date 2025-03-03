@@ -6,7 +6,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 keith({
     pattern: 'ping',
-    react: '⚔️',
+    react: '🚀',
     alias: ['speed', 'latency'],
     desc: 'Check bot\'s speed / latency',
     category: 'system',
@@ -28,13 +28,13 @@ keith({
 
         // Send the pong message with ping time
         await zk.sendMessage(from, { 
-            text: `𝖆𝖑𝖕𝖍𝖆 𝖘𝖕𝖊𝖊𝖉 ${final - initial} 𝐌/𝐒`,
+            text: `𝐍𝐞𝐠𝐫𝐨 𝐋𝐚𝐭𝐞𝐧𝐜𝐲 ⛓‍💥⚡ ${final - initial} 𝐌/𝐒`,
             contextInfo: {
                 mentionedJid: [m.sender], // Mention the sender
                 externalAdReply: {
-                    title: "𝐀𝐋𝐏𝐇𝐀-𝐌𝐃",
+                    title: "𝗡𝗘𝗚𝗥𝗢-𝐌𝐃",
                     body: "𝘱𝘪𝘯𝘨𝘪𝘯𝘨",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                    sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
                     mediaType: 1,
                     renderLargerThumbnail: false
                 }
