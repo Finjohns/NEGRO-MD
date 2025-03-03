@@ -36,8 +36,8 @@ keith({
 
         // Construct message caption
         const messageCaption = `
-*Hello 👋 ${pushname}, this is 𝐍𝐞𝐠𝐫𝐨 -𝐌𝐃* 
-The best bot in the universe, developed by JinwiilOnginjo. Fork and give a star 🌟 to my repo.
+*Hi 👋🏾 ${pushname}, this is 𝐍𝐞𝐠𝐫𝐨 -𝐌𝐃* 
+The best bot in the universe, developed by JinwiilOnginjo. Fork and give a star✨ to my repo.
 
 ╭───────────────────────
 │✞ *Stars:* ${repoInfo.stars}
