@@ -29,7 +29,7 @@ module.exports = {
     HEART_REACT: process.env.HEART_REACT || "true",
     CHAT_BOT: process.env.CHAT_BOT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "true",
-    BOT_NAME: process.env.BOT_NAME || " 𝐉𝚰𝚴𝐖𝚰𝚰𝐋 𝚯𝚴𝐆𝚰𝚴𝐉𝚯 🕷️🕸️",
+    BOT_NAME: process.env.BOT_NAME || "𝗡𝗘𝗚𝗥𝗢 𝗠𝗗🕷️🕸️",
     STATUS_REPLY: process.env.STATUS_REPLY || "`➺үσυя sтαтυs sεεη נυsт ησω вү negro-м∂`",
     OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
