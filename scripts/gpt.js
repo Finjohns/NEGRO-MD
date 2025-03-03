@@ -10,7 +10,7 @@ keith({
 },
 async (zk, mek, m, { from, quoted, body, isKeith, command, args, text, reply }) => {
     try {
-        if (!text) return reply("This is Keith assistant, what is your query?");
+        if (!text) return reply("This is Jinwiil assistant, what is your query?");
 
         const { default: Gemini } = await import('gemini-ai');
         const gemini = new Gemini("AIzaSyBK1U4dgP9XtN6qgyB3YtMD5nsLbmM7ruM");
