@@ -46,7 +46,7 @@ keith({
           // System prompt setup (to guide the AI)
           const systemPrompt = {
             role: "system",
-            content: "This is Alpha Md with a lot of features. Respond with heart emojis in every reply."
+            content: "This is Negro Md with a lot of features. Respond with heart emojis in every reply."
           };
 
           // User's message
