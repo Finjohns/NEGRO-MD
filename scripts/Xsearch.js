@@ -26,7 +26,7 @@ keith({
     }
 
     // Construct the search message
-    let searchMessage = `𝐀𝐋𝐏𝐇𝐀 𝐌𝐃 𝐓𝐖𝐈𝐓𝐓𝐄𝐑 𝐒𝐄𝐀𝐑𝐂𝐇\n\n`;
+    let searchMessage = `𝗡𝗘𝗚𝗥𝗢 𝐌𝐃 𝐓𝐖𝐈𝐓𝐓𝐄𝐑 𝐒𝐄𝐀𝐑𝐂𝐇\n\n`;
     searchMessage += `Creator: ${response.data.creator}\n\n`;  // Include the creator info
 
     // Loop through search results and append details to the message
@@ -48,9 +48,9 @@ keith({
           mentionedJid: [m.sender],
           externalAdReply: {
             showAdAttribution: true,
-            title: "ALPHA MD TWITTER SEARCH",
-            body: "Powered by KeithKeizzah",
-            sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+            title: "NEGRO MD TWITTER SEARCH",
+            body: "Powered by JinwiilOnginjo",
+            sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
             mediaType: 1,
             renderLargerThumbnail: false,
           },
