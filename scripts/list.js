@@ -31,7 +31,7 @@ keith({
     use: '.menu',
     filename: __filename
 }, async (zk, mek, m, { from, pushname }) => {
-    let menu = 'ᴀʟᴘʜᴀ ᴍᴅ ʟɪsᴛ\n\n';
+    let menu = '𝗡𝗘𝗚𝗥𝗢 ᴍᴅ ʟɪsᴛ\n\n';
     let keithList = [];
 
     // Loop through all commands to fetch the relevant information (command, description, and alias)
